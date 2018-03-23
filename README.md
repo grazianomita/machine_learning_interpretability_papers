@@ -56,3 +56,5 @@ This is a public collection of papers related to machine learning model interpre
 * [Rule Extraction from Training Data Using Neural Network](https://www.researchgate.net/profile/Manomita_Chakraborty/publication/312086580_Rule_Extraction_from_Training_Data_Using_Neural_Network/links/59e598d945851525024e223e/Rule-Extraction-from-Training-Data-Using-Neural-Network.pdf)
 * [Reverse engineering the neural networks for rule extraction in classification problems](https://link.springer.com/article/10.1007/s11063-011-9207-8)
 * [Rule-Neg: Extracting Rules from Trained Ann](https://www.amazon.co.uk/Rule-Neg-Extracting-Rules-Trained-Ann/dp/B001A2ISO2)
+* [X-TREPAN: A multi class regression and adapted extraction of comprehensible decision tree in artificial neural networks](https://arxiv.org/ftp/arxiv/papers/1508/1508.07551.pdf)
+
