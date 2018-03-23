@@ -30,3 +30,16 @@ This is a public collection of papers related to machine learning model interpre
 * [TreeView: Peeking into Deep Neural Networks Via Feature-Space Partitioning](arxiv.org/pdf/1611.07429.pdf)
 * [Using Visual Analytics to Interpret Predictive Machine Learning Models](arxiv.org/pdf/1606.05685.pdf)
 * [Contextual Explanation Networks](arxiv.org/pdf/1705.10301.pdf)
+
+## Extract rules from BB models
+* [Survey and critique of techniques for extracting rules from trained artificial neural networks](https://www.sciencedirect.com/science/article/pii/0950705196819204)
+* [The truth will come to light: Directions and challenges in extracting the knowledge embedded within trained artificial neural networks](http://ieeexplore.ieee.org/document/728352/)
+* [Using Sampling and Queries to Extract Rules from Trained Neural Networks](https://www.sciencedirect.com/science/article/pii/B9781558603356500131)
+* [Active Learning-Based Pedagogical Rule Extraction](http://ieeexplore.ieee.org/document/7018925/)
+* [A Statistics based Approach for Extracting Priority Rules from Trained Neural Networks](http://ieeexplore.ieee.org/document/861337/)
+* [Extracting Thee-Structured Representations of Thained Networks](papers.nips.cc/paper/1152-extracting-tree-structured-representations-of-trained-networks.pdf)
+* [Extraction of Fuzzy Rules from Trained Neural Network Using Evolutionary Algorithm](https://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2003-9.pdf)
+* [A Unified Approach to the Extraction of Rules from Artificial Neural Networks and Support Vector Machines](http://home.iscte-iul.pt/~dmt/publ/2010_A_unified_approach_to_extraction_of_rules.pdf)
+* [Extracting Provably Correct Rules from Artificial Neural Networks](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.2110&rep=rep1&type=pdf)
+* [Orthogonal Search-based Rule Extraction (OSRE) for Trained Neural Networks: A Practical and Efficient Approach](http://ieeexplore.ieee.org/document/1603623/)
+* [Three Techniques For Extracting Rules from Feedforward Networks](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.50.1175&rep=rep1&type=pdf)
