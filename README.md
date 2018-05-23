@@ -52,6 +52,8 @@ This is a public collection of papers related to machine learning model interpre
 * [Extracting Provably Correct Rules from Artificial Neural Networks](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.2110&rep=rep1&type=pdf)
 * [Learning Explanatory Rules From Noisy Data](https://arxiv.org/abs/1711.04574)
 * [Machine-Learning Based Circuit Synthesis](https://ieeexplore.ieee.org/document/6377134/)
+* [Synthesizing Entity Matching Rules by Examples](https://www.researchgate.net/publication/321767065_Synthesizing_entity_matching_rules_by_examples)
+* [Discovering Denial Constraints](http://www.vldb.org/pvldb/vol6/p1498-papotti.pdf)
 
 ### To-read
 * [Learning Accurate And Understandable Rules form SVM Classifiers](https://pdfs.semanticscholar.org/ec7c/0ff68dbe73ed2ff1944b53070b223a371c25.pdf)
