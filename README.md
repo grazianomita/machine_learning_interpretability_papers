@@ -37,7 +37,7 @@ This is a public collection of papers related to machine learning model interpre
 * [How to Explain Individual Classification Decisions](https://arxiv.org/pdf/0912.1128.pdf)
 * [MAGIX: Model Agnostic Globally Interpretable Explanations](https://arxiv.org/pdf/1706.07160.pdf)
 
-## Extract rules from BB models
+## Rule Extraction / Rule mining
 * [Survey and critique of techniques for extracting rules from trained artificial neural networks](https://www.sciencedirect.com/science/article/pii/0950705196819204)
 * [The truth will come to light: Directions and challenges in extracting the knowledge embedded within trained artificial neural networks](http://ieeexplore.ieee.org/document/728352/)
 * [Using Sampling and Queries to Extract Rules from Trained Neural Networks](https://www.sciencedirect.com/science/article/pii/B9781558603356500131)
@@ -49,6 +49,9 @@ This is a public collection of papers related to machine learning model interpre
 * [Extracting Provably Correct Rules from Artificial Neural Networks](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.2110&rep=rep1&type=pdf)
 * [Orthogonal Search-based Rule Extraction (OSRE) for Trained Neural Networks: A Practical and Efficient Approach](http://ieeexplore.ieee.org/document/1603623/)
 * [Three Techniques For Extracting Rules from Feedforward Networks](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.50.1175&rep=rep1&type=pdf)
+* [Extracting Provably Correct Rules from Artificial Neural Networks](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.2110&rep=rep1&type=pdf)
+* [Learning Explanatory Rules From Noisy Data](https://arxiv.org/abs/1711.04574)
+* [Machine-Learning Based Circuit Synthesis](https://ieeexplore.ieee.org/document/6377134/)
 
 ### To-read
 * [Learning Accurate And Understandable Rules form SVM Classifiers](https://pdfs.semanticscholar.org/ec7c/0ff68dbe73ed2ff1944b53070b223a371c25.pdf)
@@ -57,4 +60,3 @@ This is a public collection of papers related to machine learning model interpre
 * [Reverse engineering the neural networks for rule extraction in classification problems](https://link.springer.com/article/10.1007/s11063-011-9207-8)
 * [Rule-Neg: Extracting Rules from Trained Ann](https://www.amazon.co.uk/Rule-Neg-Extracting-Rules-Trained-Ann/dp/B001A2ISO2)
 * [X-TREPAN: A multi class regression and adapted extraction of comprehensible decision tree in artificial neural networks](https://arxiv.org/ftp/arxiv/papers/1508/1508.07551.pdf)
-
