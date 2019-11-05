@@ -1,6 +1,57 @@
 # Model-Interpretability
 This is a public collection of papers related to machine learning model interpretability.
 
+
+## Association Rule Mining
+Association Rule Mining methods come from the Data Mining community. The so called class association rules are extracted from the data through algorithms like Apriori, FP-growth. A subset of them is selected with simple ranking or selection heuristics, and used to classify new records. Rules are usually expressed in disjunctive normal form (DNF) and are considered to be interpretable by nature. Few and compact rules are preferred.
+
+* [Integrating Classification and Association Rule Mining, KDD 1998](https://www.aaai.org/Papers/KDD/1998/KDD98-012.pdf)
+* [Mining the Most Interesting Rules, KDD 1999](https://www.bayardo.org/ps/kdd99.pdf)
+* [Growing Decision Trees on Support-Less Association Rules, KDD 2000](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.443.572&rep=rep1&type=pdf)
+* [CMAR: Accurate and Efficient Classification Based on Multiple Class-Association Rules, ICDM 2001](http://hanj.cs.illinois.edu/pdf/cmar01.pdf)
+* [CPAR: Classification Based on Predictive Association Rules, ICDM 2003](http://hanj.cs.illinois.edu/pdf/sdm03_cpar.pdf)
+* [HARMONY: Efficiently Mining the Best Rules for Classification, SIAM 2005](https://pdfs.semanticscholar.org/5ea0/6fb5591b6a32c87a74d09ef0b816805fb8eb.pdf)
+* [A new approach to classification based on association rule mining, JDSS 2006](http://www.paper.edu.cn/scholar/showpdf/NUD2EN5INTA0eQxeQh)
+* [Discriminative Frequent Pattern Analysis for Effective Classification, ICDE 2007](http://hanj.cs.illinois.edu/pdf/icde07_hcheng.pdf)
+
+
+## Rule-based Methods
+Here, we report just a subset of the work done on rule-based methods, trying to cover both old and more recent methods.
+
+* [Incremental reduced error pruning, ICML 1994](https://www.researchgate.net/publication/2271856_Incremental_Reduced_Error_Pruning)
+* [Fast Effective Rule Induction, ICML 1995](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.2612&rep=rep1&type=pdf)
+* [A Simple, Fast, and Effective Rule Learner, AAAI 1999](https://pdfs.semanticscholar.org/7237/70d9ac418e923db5e087ae18c04702f5986e.pdf)
+* [Disjunctions of Conjunctions, Cognitive Simplicity, and Consideration Sets, Journal of Marketing Research 2010](https://pdfs.semanticscholar.org/bf65/dc3164be43919088695d7f43ee2e51d4b614.pdf)
+* [The Set Covering Machine, JMLR 2002](http://www.jmlr.org/papers/volume3/marchand02a/marchand02a.pdf)
+* [An Integer Optimization Approach to Associative Classification, NIPS 2012](https://pdfs.semanticscholar.org/ec2c/b3a9abdcad58ea4acb73b1411f7eb98d8472.pdf)
+* [Exact Rule Learning via Boolean Compressed Sensing, ICML 2013](http://ssg.mit.edu/~krv/pubs/MalioutovV_icml2013.pdf)
+* [Box Drawings for Learning with Imbalanced Data, KDD 2014](https://arxiv.org/abs/1403.3378)
+* [Falling Rule Lists, AISTATS 2015](https://arxiv.org/abs/1411.5899)
+* [Bayesian Or’s of And’s for Interpretable Classification with Application to Context Aware Recommender Systems, 2015](https://finale.seas.harvard.edu/files/finale/files/techreportboa_wangetal.pdf)
+* [nterpretable classifiers using rules and Bayesian analysis: Building a better stroke prediction model, Annals of Applied Statistics 2015](https://arxiv.org/abs/1511.01644)
+* [Interpretable Decision Sets: A Joint Framework for Description and Prediction, KDD 2016](https://www-cs-faculty.stanford.edu/people/jure/pubs/interpretable-kdd16.pdf)
+* [Interpretable Two-level Boolean Rule Learning for Classification, ICML 2016](https://arxiv.org/abs/1606.05798)
+* [A Bayesian Framework for Learning Rule Sets for Interpretable Classification, JMLR 2017](http://jmlr.org/papers/v18/16-003.html)
+* [Learning Certifiably Optimal Rule Lists for Categorical Data, JMLR 2018](https://arxiv.org/abs/1704.01701)
+* [An Optimization Approach to Learning Falling Rule Lists, AISTATS 2018](http://proceedings.mlr.press/v84/chen18a/chen18a.pdf)
+* [Boolean Decision Rules via Column Generation, NIPS 2018](https://arxiv.org/abs/1805.09901)
+
+
+## Time-series classification/forecasting with neural networks + attention
+Attention mechanisms have recently gained popularity in training neural networks. They have shown their potential for machine translations, overcoming most of the limitations of standard recurrent neural networks, and allowing for more interpretable models. Recently, there have been several attempts to extend the attention mechanism to (multi-variate) time-series.
+
+* [Neural Machine Translation by Jointly Learning to Align and Translate, ICLR 2015](https://arxiv.org/abs/1409.0473)
+* [Effective Approaches to Attention-based Neural Machine Translation, EMNLP 2015](https://arxiv.org/abs/1508.04025)
+* [RETAIN: An Interpretable Predictive Model for Healthcare using Reverse Time Attention Mechanism, NIPS 2016](https://arxiv.org/abs/1608.05745)
+* [A Dual-Stage Attention-Based Recurrent Neural Network for Time Series Prediction, IJCAI 2017](https://arxiv.org/abs/1704.02971)
+* [Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks, SIGIR 2018](https://arxiv.org/abs/1703.07015)
+* [Attend and Diagnose: Clinical Time Series Analysis using Attention Models, AAAI 2018](https://arxiv.org/abs/1711.03905)
+* [Temporal Pattern Attention for Multivariate Time Series Forecasting, ECML 2019](https://arxiv.org/abs/1809.04206)
+* [CDSA: Cross-Dimensional Self-Attention for Multivariate, Geo-tagged Time Series Imputation, NIPS 2019](https://arxiv.org/abs/1905.09904)
+* [Exploring Interpretable LSTM Neural Networks over Multi-Variable Data, ICML 2019](https://arxiv.org/abs/1905.12034)
+* [Enhancing the Locality and Breaking the Memory Bottleneck of Transformer on Time Series Forecasting, NIPS 2019](https://arxiv.org/abs/1907.00235)
+
+## Others
 * [Detecting Bias in Black-Box Models Using Transparent Model Distillation](https://arxiv.org/pdf/1710.06169.pdf)
 * [Deep Learning for Case-Based Reasoning through Prototypes: A Neural Network that Explains Its Predictions](https://arxiv.org/pdf/1710.04806.pdf)
 * [Explainable Artificial Intelligence: Understanding, Visualizing and Interpreting Deep Learning Models](arxiv.org/pdf/1708.08296.pdf)
