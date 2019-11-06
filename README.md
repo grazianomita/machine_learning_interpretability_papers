@@ -1,5 +1,5 @@
-# Model-Interpretability
-This is a public collection of papers related to machine learning model interpretability.
+# Model Interpretability
+This is a public collection of papers related to machine learning model interpretability. The concept of interpretability is so wide that is very hard to build an exhaustive list of papers. Thus, the works reported here are just a small subset of what has been done in the field, and refers to sub-areas of model interpretability.
 
 
 ## Association Rule Mining
