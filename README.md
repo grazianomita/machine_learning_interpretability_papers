@@ -19,6 +19,7 @@ These are some of the more recent references to read if you are approaching the 
 * [Interpretability of deep learning models: a survey of results, DAIS 2017](https://ieeexplore.ieee.org/document/8397411)
 * [A Survey Of Methods For Explaining Black Box Models, ACM Computing Surveys 2018](https://arxiv.org/abs/1802.01933)
 * [Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and use Interpretable Models Instead, Nature Machine Learning 2019](https://arxiv.org/abs/1811.10154)
+* [Interpretable Machine Learning - A Guide for Making Black Box Models Explainable, 2019](https://christophm.github.io/interpretable-ml-book/)
 
 
 ## Association Rule Mining
