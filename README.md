@@ -52,6 +52,8 @@ Incremental methods allow to continuously update the model when new data arrives
 * [Rule Sharing for Fraud Detection via Adaptation, ICDE 2018](https://slavanov.com/research/icde18.pdf)
 * [GOLDRUSH: Rule Sharing System for Fraud Detection, VLDB 2018](http://www.vldb.org/pvldb/vol11/p1998-jarovsky.pdf)
 
+Incremental supervised methods assume that labels become available together with the input (or at least with a delay that is tolerable). When labels are scarse or not available at all, unsupervised or semisupervised incremental methods are the only solution. To the best of my knowledge, there are no rule-based methods that can work in these settings.
+
 
 ## Time-series classification/forecasting with neural networks + attention
 Attention mechanisms have recently gained popularity in training neural networks. They have shown their potential for machine translations, overcoming most of the limitations of standard recurrent neural networks, and allowing for more interpretable models. Recently, there have been several attempts to extend the attention mechanism to (multi-variate) time-series.
