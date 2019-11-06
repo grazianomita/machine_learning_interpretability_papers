@@ -40,6 +40,7 @@ Here, we report just a subset of the work done on rule-based methods, trying to 
 
 * [Learning Decision Lists, Machine Learning 1987](https://people.csail.mit.edu/rivest/pubs/Riv87b.pdf)
 * [The CN2 Induction Algorithm, Machine Learning 1989](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.23.736&rep=rep1&type=pdf)
+* [Very simple classification rules perform well on most commonly used datasets, Machine Learning 1993](https://www.mlpack.org/papers/ds.pdf)
 * [FOIL: A midterm report, ECML 1993](https://link.springer.com/chapter/10.1007/3-540-56602-3_124)
 * [Incremental reduced error pruning, ICML 1994](https://www.researchgate.net/publication/2271856_Incremental_Reduced_Error_Pruning)
 * [Fast Effective Rule Induction, ICML 1995](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.2612&rep=rep1&type=pdf)
@@ -48,8 +49,8 @@ Here, we report just a subset of the work done on rule-based methods, trying to 
 * [The Set Covering Machine, JMLR 2002](http://www.jmlr.org/papers/volume3/marchand02a/marchand02a.pdf)
 * [Binary Rule Generation via Hamming Clustering, IEEE TKDE 2002](https://www.semanticscholar.org/paper/Binary-Rule-Generation-via-Hamming-Clustering-Muselli-Liberati/3b01a190d4e55929273caf5cb272b69e0c055ff2)
 * [Disjunctions of Conjunctions, Cognitive Simplicity, and Consideration Sets, Journal of Marketing Research 2010](https://pdfs.semanticscholar.org/bf65/dc3164be43919088695d7f43ee2e51d4b614.pdf)
+* [Finding a Short and Accurate Decision Rule in Disjunctive Normal Form by Exhaustive Search, Machine Learning 2010](https://link.springer.com/article/10.1007/s10994-010-5168-9)
 * [BRACID: a comprehensive approach to learning rules from imbalanced data, Journal of Intelligent Information Systems 2012](https://link.springer.com/article/10.1007/s10844-011-0193-0)
-* [An Integer Optimization Approach to Associative Classification, NIPS 2012](https://pdfs.semanticscholar.org/ec2c/b3a9abdcad58ea4acb73b1411f7eb98d8472.pdf)
 * [An Integer Optimization Approach to Associative Classification, NIPS 2012](https://pdfs.semanticscholar.org/ec2c/b3a9abdcad58ea4acb73b1411f7eb98d8472.pdf)
 * [Exact Rule Learning via Boolean Compressed Sensing, ICML 2013](http://ssg.mit.edu/~krv/pubs/MalioutovV_icml2013.pdf)
 * [Foundations of Rule Learning, 2014](https://www.springer.com/gp/book/9783540751960)
@@ -61,9 +62,11 @@ Here, we report just a subset of the work done on rule-based methods, trying to 
 * [Interpretable Two-level Boolean Rule Learning for Classification, ICML 2016](https://arxiv.org/abs/1606.05798)
 * [Scalable Bayesian Rule Lists, ICML 2017](https://arxiv.org/abs/1602.08610)
 * [A Bayesian Framework for Learning Rule Sets for Interpretable Classification, JMLR 2017](http://jmlr.org/papers/v18/16-003.html)
+* [Learning Credible Models, KDD 2018](https://arxiv.org/abs/1711.03190)
 * [Learning Certifiably Optimal Rule Lists for Categorical Data, JMLR 2018](https://arxiv.org/abs/1704.01701)
 * [An Optimization Approach to Learning Falling Rule Lists, AISTATS 2018](http://proceedings.mlr.press/v84/chen18a/chen18a.pdf)
 * [Boolean Decision Rules via Column Generation, NIPS 2018](https://arxiv.org/abs/1805.09901)
+* [An Interpretable Model with Globally Consistent Explanations for Credit Risk, NIPS 2018](https://arxiv.org/abs/1811.12615)
 
 
 ## Incremental Rule Learning
