@@ -101,6 +101,15 @@ Artificial neural networks are the black-box model "par excellence". Thus, it is
 * [TreeView: Peeking into Deep Neural Networks Via Feature-Space Partitioning, NIPS 2016](https://arxiv.org/abs/1611.07429)
 * [Interpretation of Neural Networks is Fragile, AAAI 2019](arxiv.org/pdf/1710.10547.pdf)
 
+## Case-Based Interpretable Models
+Case-based models classify new records based on previously seen records. More specifically, every new input is compared with previously seen records (usually its neighbors) and classified according to a measure of distance. KNN (k-nearest neighbors) is probably the most popular case-based method. Interpretability translates into similarity: a given input is assigned to class C because it is similar to other samples that were previously classified in the same way. I am not going to report here all the well-known work on case-based methods. Instead, I will focus on recent papers that I think are innovative and interesting to read.
+
+* [The Bayesian Case Model: A Generative Approach for Case-Based Reasoning and Prototype Classification, NIPS 2014](https://users.cs.duke.edu/~cynthia/docs/KimRuSh14.pdf)
+* [Bayesian Patchworks: An Approach to Case-Based Reasoning, Machine Learning 2018](https://arxiv.org/abs/1809.03541)
+* [Deep Learning for Case-based Reasoning through Prototypes: A Neural Network that Explains its Predictions, AAAI 2018](https://arxiv.org/abs/1710.04806)
+* [This Looks Like That: Deep Learning for Interpretable Image Recognition, NIPS 2019](https://arxiv.org/abs/1806.10574)
+
+
 ## Time-series classification/forecasting with neural networks + attention
 Attention mechanisms have recently gained popularity in training neural networks. They have shown their potential for machine translations, overcoming most of the limitations of standard recurrent neural networks, and allowing for more interpretable models. Recently, there have been several attempts to extend the attention mechanism to (multi-variate) time-series.
 
@@ -117,6 +126,8 @@ Attention mechanisms have recently gained popularity in training neural networks
 
 
 ## Others
+Here I put all the papers that do not fit in the previous sections.
+
 * [Detecting Bias in Black-Box Models Using Transparent Model Distillation](https://arxiv.org/pdf/1710.06169.pdf)
 * [Deep Learning for Case-Based Reasoning through Prototypes: A Neural Network that Explains Its Predictions](https://arxiv.org/pdf/1710.04806.pdf)
 * [Explainable Artificial Intelligence: Understanding, Visualizing and Interpreting Deep Learning Models](arxiv.org/pdf/1708.08296.pdf)
@@ -130,17 +141,14 @@ Attention mechanisms have recently gained popularity in training neural networks
 * [Inverse Classification for Comparison-based Interpretability in Machine Learning](https://arxiv.org/pdf/1712.08443.pdf)
 * [Peeking Inside the Black Box: Visualizing Statistical Learning with Plots of Individual Conditional Expectation](arxiv.org/pdf/1309.6392.pdf)
 * [Show, Attend, Control, and Justify: Interpretable Learning for Self-Driving Cars](kimjinkyu.files.wordpress.com/2017/12/nips_2017.pdf)
-* [The Bayesian Case Model: A Generative Approach for Case-Based Reasoning and Prototype Classification](arxiv.org/pdf/1503.01161.pdf)
 * [Using Visual Analytics to Interpret Predictive Machine Learning Models](arxiv.org/pdf/1606.05685.pdf)
 * [Contextual Explanation Networks](arxiv.org/pdf/1705.10301.pdf)
-
 * [A Model Explanation System: Latest Updates and Extensions](https://arxiv.org/pdf/1606.09517.pdf)
 * [Explaining Classification Models Built on High-Dimensional Sparse Data](arxiv.org/pdf/1607.06280.pdf)
 * [How to Explain Individual Classification Decisions](https://arxiv.org/pdf/0912.1128.pdf)
 * [MAGIX: Model Agnostic Globally Interpretable Explanations](https://arxiv.org/pdf/1706.07160.pdf)
 * [Learning Accurate And Understandable Rules form SVM Classifiers](https://pdfs.semanticscholar.org/ec7c/0ff68dbe73ed2ff1944b53070b223a371c25.pdf)
 * [X-TREPAN: A multi class regression and adapted extraction of comprehensible decision tree in artificial neural networks](https://arxiv.org/ftp/arxiv/papers/1508/1508.07551.pdf)
-
 * [Learning Explanatory Rules From Noisy Data](https://arxiv.org/abs/1711.04574)
 * [Machine-Learning Based Circuit Synthesis](https://ieeexplore.ieee.org/document/6377134/)
 * [Synthesizing Entity Matching Rules by Examples](https://www.researchgate.net/publication/321767065_Synthesizing_entity_matching_rules_by_examples)
