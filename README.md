@@ -135,7 +135,7 @@ Attention mechanisms have recently gained popularity in training neural networks
 
 
 ## Others
-Here I put all the papers that do not fit in the previous sections.
+Here you can find all the papers that do not fit in the previous sections. I am going to reorganize them soon or later.
 
 * [Detecting Bias in Black-Box Models Using Transparent Model Distillation](https://arxiv.org/pdf/1710.06169.pdf)
 * [Deep Learning for Case-Based Reasoning through Prototypes: A Neural Network that Explains Its Predictions](https://arxiv.org/pdf/1710.04806.pdf)
