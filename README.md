@@ -1,5 +1,5 @@
 # Model Interpretability
-This is a public collection of papers related to machine learning (ML) model interpretability. Someone might think that ML interpretability is a recent field: nothing more wrong! Throughout the history of machine learning, researchers have always proposed methods that are interpretable or can "explain things in human-understandable terms"! Unfortunately it is very hard to build an exhaustive list of works because many papers, especially the oldest ones, had not the word "interpretable/interpretability/explainability" in the title. Thus, the works reported here are just a small subset of what has been done in the field, and refers to sub-areas of model interpretability.
+This is a public collection of papers related to machine learning (ML) model interpretability. Someone might think that ML interpretability is a recent field: nothing more wrong! Throughout the history of machine learning, researchers have always proposed methods that are interpretable or can "explain things in human-understandable terms"! Unfortunately it is very hard to build an exhaustive list of works because many papers, especially the oldest ones, had not the word "interpretable/interpretability/explainability" in the title. Thus, the works reported here are just a small subset of what has been done in the field (and I personally read), and refers to sub-areas of model interpretability.
 
 
 ## Introduction to Model Interpretability
@@ -75,6 +75,23 @@ Incremental methods allow to continuously update the model when new data arrives
 Incremental supervised methods assume that labels become available together with the input (or at least with a delay that is tolerable). When labels are scarse or not available at all, unsupervised or semisupervised incremental methods are the only solution. To the best of my knowledge, there are no rule-based methods that can work in these settings.
 
 
+## Post-hoc interpretability of Artificial Neural Networks
+Artificial neural networks are the black-box model "par excellence". Thus, it is not surprising that a significant part of the works on model interpretability is neural network specific. Unfortunately, I have not spent enough time on this specific sub-field, but I hope these short list of papers might be useful.
+
+* [Extracting refined rules from knowledge-based neural networks, Machine Learning 1993](https://link.springer.com/article/10.1007/BF00993103)
+* [Using Sampling and Queries to Extract Rules from Trained Neural Networks, ICML 1994](https://www.semanticscholar.org/paper/Using-Sampling-and-Queries-to-Extract-Rules-from-Craven-Shavlik/ba176454d1ade52e6eec74e3f9eed5f61179761a)
+* [Survey and critique of techniques for extracting rules from trained artificial neural networks, KBS 1995](https://www.sciencedirect.com/science/article/pii/0950705196819204)
+* [Extracting Rules from Artificial Neural Networks with Distributed Representations, NIPS 1995](https://papers.nips.cc/paper/924-extracting-rules-from-artificial-neural-networks-with-distributed-representations.pdf)
+* [The truth is in there : directions and challenges in extracting rules from trained ar tificial neural networks, IEEE TNN 2000](https://www.researchgate.net/publication/2614662_The_Truth_is_in_There_Directions_and_Challenges_in_Extracting_Rules_From_Trained_Artificial_Neural_Networks)
+* [Extracting Rules from Trained Neural Networks, IEEE TNN 2000](https://ieeexplore.ieee.org/document/839008)
+* [Interpretation of Trained Neural Networks by Rule Extraction, ICCI 2001](https://link.springer.com/chapter/10.1007/3-540-45493-4_20)
+* [A new methodology of extraction, optimization and application of crisp and fuzzy logical rules, IEEE TNN 2001](https://www.semanticscholar.org/paper/A-new-methodology-of-extraction%2C-optimization-and-Duch-Adamczak/6538e4f542850fcf8c1e9e413546f1616ed79850)
+* [Diagnostic Rule Extraction from Trained Feedforward Neural Networks, Mechanical Systems and Signal Processing 2002](https://www.sciencedirect.com/science/article/pii/S0888327001913962)
+* [Are artificial neural networks white boxes, IEEE TNN 2005](https://www.researchgate.net/publication/7638457_Are_Artificial_Neural_Networks_White_Boxes)
+* [A modified fuzzy min-max neural network with rule extraction, Applied Soft Computing 2008](https://www.sciencedirect.com/science/article/pii/S1568494607000865)
+* [TreeView: Peeking into Deep Neural Networks Via Feature-Space Partitioning, NIPS 2016](https://arxiv.org/abs/1611.07429)
+
+
 ## Time-series classification/forecasting with neural networks + attention
 Attention mechanisms have recently gained popularity in training neural networks. They have shown their potential for machine translations, overcoming most of the limitations of standard recurrent neural networks, and allowing for more interpretable models. Recently, there have been several attempts to extend the attention mechanism to (multi-variate) time-series.
 
@@ -89,6 +106,7 @@ Attention mechanisms have recently gained popularity in training neural networks
 * [Exploring Interpretable LSTM Neural Networks over Multi-Variable Data, ICML 2019](https://arxiv.org/abs/1905.12034)
 * [Enhancing the Locality and Breaking the Memory Bottleneck of Transformer on Time Series Forecasting, NIPS 2019](https://arxiv.org/abs/1907.00235)
 
+
 ## Others
 * [Detecting Bias in Black-Box Models Using Transparent Model Distillation](https://arxiv.org/pdf/1710.06169.pdf)
 * [Deep Learning for Case-Based Reasoning through Prototypes: A Neural Network that Explains Its Predictions](https://arxiv.org/pdf/1710.04806.pdf)
@@ -99,23 +117,13 @@ Attention mechanisms have recently gained popularity in training neural networks
 * [Interpretation of Neural Networks is Fragile](arxiv.org/pdf/1710.10547.pdf)
 * [Interpretation of Prediction Models Using the Input Gradient](arxiv.org/pdf/1611.07634.pdf)
 * [Programs as Black-Box Explanations](arxiv.org/pdf/1611.07579.pdf)
-* ["I know it when I see it". Visualization and Intuitive Interpretability](arxiv.org/pdf/1711.08042.pdf)
-* ["Why Should I Trust You?": Explaining the Predictions of Any Classifier](arxiv.org/pdf/1602.04938.pdf)
 * [Beyond Sparsity: Tree Regularization of Deep Models for Interpretability](arxiv.org/pdf/1711.06178.pdf)
-* [European Union regulations on algorithmic decision-making and a "right to explanation"](arxiv.org/pdf/1606.08813.pdf)
-* [Explanation in Artificial Intelligence: Insights from the Social Sciences](arxiv.org/abs/1706.07269)
 * [Extracting Tree-Structured Representations of Trained Networks](papers.nips.cc/paper/1152-extracting-tree-structured-representations-of-trained-networks.pdf)
-* [Interpretability of Deep Learning Models: A Survey of Results](orca.cf.ac.uk/101500/1/Interpretability%20of%20Deep%20Learning%20Models%20-%20A%20Survey%20of%20Results.pdf)
 * [Interpretable and Pedagogical Examples](arxiv.org/pdf/1711.00694.pdf)
 * [Inverse Classification for Comparison-based Interpretability in Machine Learning](https://arxiv.org/pdf/1712.08443.pdf)
 * [Peeking Inside the Black Box: Visualizing Statistical Learning with Plots of Individual Conditional Expectation](arxiv.org/pdf/1309.6392.pdf)
 * [Show, Attend, Control, and Justify: Interpretable Learning for Self-Driving Cars](kimjinkyu.files.wordpress.com/2017/12/nips_2017.pdf)
 * [The Bayesian Case Model: A Generative Approach for Case-Based Reasoning and Prototype Classification](arxiv.org/pdf/1503.01161.pdf)
-* [The Doctor Just Won't Accept That!](arxiv.org/pdf/1711.08037.pdf)
-* [The Intriguing Properties of Model Explanations](arxiv.org/pdf/1801.09808.pdf)
-* [The Mythos of Model Interpretability](arxiv.org/pdf/1606.03490.pdf)
-* [The Promise and Peril of Human Evaluation for Model Interpretability](arxiv.org/pdf/1711.07414.pdf)
-* [Towards A Rigorous Science of Interpretable Machine Learning](arxiv.org/pdf/1702.08608.pdf)
 * [TreeView: Peeking into Deep Neural Networks Via Feature-Space Partitioning](arxiv.org/pdf/1611.07429.pdf)
 * [Using Visual Analytics to Interpret Predictive Machine Learning Models](arxiv.org/pdf/1606.05685.pdf)
 * [Contextual Explanation Networks](arxiv.org/pdf/1705.10301.pdf)
