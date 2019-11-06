@@ -2,6 +2,25 @@
 This is a public collection of papers related to machine learning model interpretability. The concept of interpretability is so wide that is very hard to build an exhaustive list of papers. Thus, the works reported here are just a small subset of what has been done in the field, and refers to sub-areas of model interpretability.
 
 
+## Introduction to Model Interpretability
+These are some of the more recent references to read if you are approaching the field of model interpretability and you want to have a general view of the field. "Explaining things" is not a machine learning specific concept: there is tons of research in philosphy, psychology, sociology, of how people generate/evaluate explanations. Restricting our attention to machine learning, interpreting a model might mean understanding how the model works interally; it might also translate into explaining why a model answers in a certain way! These are examples of different "types" of explanations. The way we explain things is often model and application specific! Last but not least, we should also be able to evaluate and compare the quality of explanations.
+
+* [European Union regulations on algorithmic decision-making and a "right to explanation", AI Magazine 2016](https://arxiv.org/abs/1606.08813)
+* [“Why Should I Trust You?” Explaining the Predictions of Any Classifier, KDD 2016](https://arxiv.org/abs/1602.04938)
+* [The Mythos of Model Interpretability, ICML 2016](https://arxiv.org/abs/1606.03490)
+* [Model-Agnostic Interpretability of Machine Learning, ICML 2016](https://arxiv.org/abs/1606.05386)
+* [Towards A Rigorous Science of Interpretable Machine Learning, 2017](https://arxiv.org/abs/1702.08608)
+* [Transparency: Motivations and Challenges, ICML 2017](https://arxiv.org/abs/1708.01870)
+* [Explanation in Artificial Intelligence: Insights from the Social Sciences, Artificial Intelligence 2017](https://arxiv.org/abs/1706.07269)
+* [The intriguing Properties of Model Explanation, NIPS 2017](https://arxiv.org/abs/1801.09808)
+* [The Doctor Just Won’t Accept That!, NIPS 2017](https://arxiv.org/abs/1711.08037)
+* ["I know it when I see it". Visualization and Intuitive Interpretability, NIPS 2017](https://arxiv.org/abs/1711.08042)
+* [The Promise and Peril of Human Evaluation for Model Interpretability, NIPS 2017](https://arxiv.org/abs/1711.07414)
+* [Interpretability of deep learning models: a survey of results, DAIS 2017](https://ieeexplore.ieee.org/document/8397411)
+* [A Survey Of Methods For Explaining Black Box Models, ACM Computing Surveys 2018](https://arxiv.org/abs/1802.01933)
+* [Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and use Interpretable Models Instead, Nature Machine Learning 2019](https://arxiv.org/abs/1811.10154)
+
+
 ## Association Rule Mining
 Association Rule Mining methods come from the Data Mining community. The so called class association rules are extracted from the data through algorithms like Apriori, FP-growth. A subset of them is selected with simple ranking or selection heuristics, and used to classify new records. Rules are usually expressed in disjunctive normal form (DNF) and are considered to be interpretable by nature. Few and compact rules are preferred.
 
