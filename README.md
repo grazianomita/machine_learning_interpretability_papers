@@ -15,7 +15,7 @@ Association Rule Mining methods come from the Data Mining community. The so call
 * [Discriminative Frequent Pattern Analysis for Effective Classification, ICDE 2007](http://hanj.cs.illinois.edu/pdf/icde07_hcheng.pdf)
 
 
-## Rule-based Methods
+## Rule Learning
 Here, we report just a subset of the work done on rule-based methods, trying to cover both old and more recent methods.
 
 * [Incremental reduced error pruning, ICML 1994](https://www.researchgate.net/publication/2271856_Incremental_Reduced_Error_Pruning)
@@ -35,6 +35,22 @@ Here, we report just a subset of the work done on rule-based methods, trying to 
 * [Learning Certifiably Optimal Rule Lists for Categorical Data, JMLR 2018](https://arxiv.org/abs/1704.01701)
 * [An Optimization Approach to Learning Falling Rule Lists, AISTATS 2018](http://proceedings.mlr.press/v84/chen18a/chen18a.pdf)
 * [Boolean Decision Rules via Column Generation, NIPS 2018](https://arxiv.org/abs/1805.09901)
+
+
+## Incremental Rule Learning
+Incremental methods allow to continuously update the model when new data arrives. For rule-based models (I will also consider decision trees here) updates corresponds to changes in the set of rules (add/remove/update a rule). Research in incremental interpretable methods had a huge impact in 90's, but interest in the field has grown again recently especially in the database community.
+
+* [Incremental Learning from Noisy Data, Machine Learning 1986](https://link.springer.com/content/pdf/10.1007/BF00116895.pdf)
+* [Learning in the Presence of Concept Drift and Hidden Contexts, Machine Learning 1996](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.9.9119&rep=rep1&type=pdf)
+* [Maintaining the performance of a learned classifier under concept drift, Intelligent Data Analysis 1999](https://www.sciencedirect.com/science/article/pii/S1088467X99000335)
+* [Mining High-speed Data Streams, KDD 2000](https://homes.cs.washington.edu/~pedrod/papers/kdd00.pdf)
+* [Mining Time-changing Data Streams, KDD 2001](https://www.researchgate.net/publication/2375511_Mining_Time-Changing_Data_Streams)
+* [Efficient Decision Tree Construction on Streaming Data, KDD 2003](http://web.cse.ohio-state.edu/~agrawal.28/p/sigkdd03.pdf)
+* [Incremental Learning with Partial Instance Memory, Artificial Intelligence 2004](https://www.sciencedirect.com/science/article/pii/S0004370203001498)
+* [Data Streams Classification by Incremental Rule Learning with Parameterized Generalization, SAC 2006](https://www.researchgate.net/publication/221001229_Data_streams_classification_by_incremental_rule_learning_with_parameterized_generalization)
+* [Rudolf: Interactive Rule Refinement System for Fraud Detection, VLDB 2016](http://www.vldb.org/pvldb/vol9/p1465-milo.pdf)
+* [Rule Sharing for Fraud Detection via Adaptation, ICDE 2018](https://slavanov.com/research/icde18.pdf)
+* [GOLDRUSH: Rule Sharing System for Fraud Detection, VLDB 2018](http://www.vldb.org/pvldb/vol11/p1998-jarovsky.pdf)
 
 
 ## Time-series classification/forecasting with neural networks + attention
