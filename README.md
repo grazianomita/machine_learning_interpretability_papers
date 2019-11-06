@@ -78,17 +78,24 @@ Incremental supervised methods assume that labels become available together with
 ## Post-hoc interpretability of Artificial Neural Networks
 Artificial neural networks are the black-box model "par excellence". Thus, it is not surprising that a significant part of the works on model interpretability is neural network specific. Unfortunately, I have not spent enough time on this specific sub-field, but I hope these short list of papers might be useful.
 
+* [Extracting Provably Correct Rules from Artificial Neural Networks, Technical Report 1993](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.2110&rep=rep1&type=pdf)
 * [Extracting refined rules from knowledge-based neural networks, Machine Learning 1993](https://link.springer.com/article/10.1007/BF00993103)
 * [Using Sampling and Queries to Extract Rules from Trained Neural Networks, ICML 1994](https://www.semanticscholar.org/paper/Using-Sampling-and-Queries-to-Extract-Rules-from-Craven-Shavlik/ba176454d1ade52e6eec74e3f9eed5f61179761a)
 * [Survey and critique of techniques for extracting rules from trained artificial neural networks, KBS 1995](https://www.sciencedirect.com/science/article/pii/0950705196819204)
 * [Extracting Rules from Artificial Neural Networks with Distributed Representations, NIPS 1995](https://papers.nips.cc/paper/924-extracting-rules-from-artificial-neural-networks-with-distributed-representations.pdf)
+* [Extracting Tree-Structured Representations of Trained Networks, NIPS 1996](https://papers.nips.cc/paper/1152-extracting-tree-structured-representations-of-trained-networks.pdf)
+* [The truth will come to light: directions and challenges in extracting the knowledge embedded within trained artificial neural networks, IEEE TNN 1998](https://ieeexplore.ieee.org/document/728352)
+* [A statistics based approach for extracting priority rules from trained neural networks, IEEE IJCNN 2000](https://ieeexplore.ieee.org/document/861337)
 * [The truth is in there : directions and challenges in extracting rules from trained ar tificial neural networks, IEEE TNN 2000](https://www.researchgate.net/publication/2614662_The_Truth_is_in_There_Directions_and_Challenges_in_Extracting_Rules_From_Trained_Artificial_Neural_Networks)
 * [Extracting Rules from Trained Neural Networks, IEEE TNN 2000](https://ieeexplore.ieee.org/document/839008)
 * [Interpretation of Trained Neural Networks by Rule Extraction, ICCI 2001](https://link.springer.com/chapter/10.1007/3-540-45493-4_20)
 * [A new methodology of extraction, optimization and application of crisp and fuzzy logical rules, IEEE TNN 2001](https://www.semanticscholar.org/paper/A-new-methodology-of-extraction%2C-optimization-and-Duch-Adamczak/6538e4f542850fcf8c1e9e413546f1616ed79850)
 * [Diagnostic Rule Extraction from Trained Feedforward Neural Networks, Mechanical Systems and Signal Processing 2002](https://www.sciencedirect.com/science/article/pii/S0888327001913962)
+* [Extraction of Fuzzy Rules from Trained Neural Network Using Evolutionary Algorithm, ESAN 2003](https://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2003-9.pdf)
 * [Are artificial neural networks white boxes, IEEE TNN 2005](https://www.researchgate.net/publication/7638457_Are_Artificial_Neural_Networks_White_Boxes)
+* [Orthogonal search-based rule extraction (OSRE) for trained neural networks: a practical and efficient approach, IEEE TNN 2006](https://ieeexplore.ieee.org/document/1603623)
 * [A modified fuzzy min-max neural network with rule extraction, Applied Soft Computing 2008](https://www.sciencedirect.com/science/article/pii/S1568494607000865)
+* [Active Learning-Based Pedagogical Rule Extraction, IEEE TNN 2015](https://ieeexplore.ieee.org/document/7018925)
 * [TreeView: Peeking into Deep Neural Networks Via Feature-Space Partitioning, NIPS 2016](https://arxiv.org/abs/1611.07429)
 
 
