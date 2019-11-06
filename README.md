@@ -88,7 +88,7 @@ Incremental supervised methods assume that labels become available together with
 
 
 ## Post-hoc interpretability of Artificial Neural Networks
-Artificial neural networks are the black-box model "par excellence". Thus, it is not surprising that a significant part of the works on model interpretability is neural network specific. Unfortunately, I have not spent enough time on this specific sub-field, but I hope these short list of papers might be useful.
+Artificial neural networks are the black-box model "par excellence". Thus, it is not surprising that a significant part of the publications on model interpretability is neural network specific. Unfortunately, I have not spent enough time on this specific sub-field, but I hope these short list of papers might be useful.
 
 * [Extracting Provably Correct Rules from Artificial Neural Networks, Technical Report 1993](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.2110&rep=rep1&type=pdf)
 * [Extracting refined rules from knowledge-based neural networks, Machine Learning 1993](https://link.springer.com/article/10.1007/BF00993103)
@@ -114,7 +114,7 @@ Artificial neural networks are the black-box model "par excellence". Thus, it is
 * [Interpretation of Neural Networks is Fragile, AAAI 2019](arxiv.org/pdf/1710.10547.pdf)
 
 ## Case-Based Interpretable Models
-Case-based models classify new records based on previously seen records. More specifically, every new input is compared with previously seen records (usually its neighbors) and classified according to a measure of distance. KNN (k-nearest neighbors) is probably the most popular case-based method. Interpretability translates into similarity: a given input is assigned to class C because it is similar to other samples that were previously classified in the same way. I am not going to report here all the well-known work on case-based methods. Instead, I will focus on recent papers that I think are innovative and interesting to read.
+Case-based models like KNN (k-nearest neighbors) classify new records based on previously seen records. More specifically, every new input is compared with previously seen records (usually its neighbors) and classified according to a measure of distance. For case-based models, interpretability translates into similarity: a given input is assigned to class C if it is similar to other samples that were previously classified in the same way. I am not going to report here all the well-known work on case-based methods. Instead, I will focus on recent papers that I think are innovative and interesting to read.
 
 * [The Bayesian Case Model: A Generative Approach for Case-Based Reasoning and Prototype Classification, NIPS 2014](https://users.cs.duke.edu/~cynthia/docs/KimRuSh14.pdf)
 * [Bayesian Patchworks: An Approach to Case-Based Reasoning, Machine Learning 2018](https://arxiv.org/abs/1809.03541)
