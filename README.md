@@ -87,6 +87,15 @@ Incremental methods allow to continuously update the model when new data arrives
 Incremental supervised methods assume that labels become available together with the input (or at least with a delay that is tolerable). When labels are scarse or not available at all, unsupervised or semisupervised incremental methods are the only solution. To the best of my knowledge, there are no rule-based methods that can work in these settings.
 
 
+## Case-Based Interpretable Models
+Case-based models like KNN (k-nearest neighbors) classify new records based on previously seen records. More specifically, every new input is compared with previously seen records (usually its neighbors) and classified according to a measure of distance. For case-based models, interpretability translates into similarity: a given input is assigned to class C if it is similar to other samples that were previously classified in the same way. I am not going to report here all the well-known work on case-based methods. Instead, I will focus on recent papers that I think are innovative and interesting to read.
+
+* [The Bayesian Case Model: A Generative Approach for Case-Based Reasoning and Prototype Classification, NIPS 2014](https://users.cs.duke.edu/~cynthia/docs/KimRuSh14.pdf)
+* [Bayesian Patchworks: An Approach to Case-Based Reasoning, Machine Learning 2018](https://arxiv.org/abs/1809.03541)
+* [Deep Learning for Case-based Reasoning through Prototypes: A Neural Network that Explains its Predictions, AAAI 2018](https://arxiv.org/abs/1710.04806)
+* [This Looks Like That: Deep Learning for Interpretable Image Recognition, NIPS 2019](https://arxiv.org/abs/1806.10574)
+
+
 ## Post-hoc interpretability of Artificial Neural Networks
 Artificial neural networks are the black-box model "par excellence". Thus, it is not surprising that a significant part of the publications on model interpretability is neural network specific. Unfortunately, I have not spent enough time on this specific sub-field, but I hope these short list of papers might be useful.
 
@@ -113,14 +122,6 @@ Artificial neural networks are the black-box model "par excellence". Thus, it is
 * [TreeView: Peeking into Deep Neural Networks Via Feature-Space Partitioning, NIPS 2016](https://arxiv.org/abs/1611.07429)
 * [Interpretation of Neural Networks is Fragile, AAAI 2019](arxiv.org/pdf/1710.10547.pdf)
 
-## Case-Based Interpretable Models
-Case-based models like KNN (k-nearest neighbors) classify new records based on previously seen records. More specifically, every new input is compared with previously seen records (usually its neighbors) and classified according to a measure of distance. For case-based models, interpretability translates into similarity: a given input is assigned to class C if it is similar to other samples that were previously classified in the same way. I am not going to report here all the well-known work on case-based methods. Instead, I will focus on recent papers that I think are innovative and interesting to read.
-
-* [The Bayesian Case Model: A Generative Approach for Case-Based Reasoning and Prototype Classification, NIPS 2014](https://users.cs.duke.edu/~cynthia/docs/KimRuSh14.pdf)
-* [Bayesian Patchworks: An Approach to Case-Based Reasoning, Machine Learning 2018](https://arxiv.org/abs/1809.03541)
-* [Deep Learning for Case-based Reasoning through Prototypes: A Neural Network that Explains its Predictions, AAAI 2018](https://arxiv.org/abs/1710.04806)
-* [This Looks Like That: Deep Learning for Interpretable Image Recognition, NIPS 2019](https://arxiv.org/abs/1806.10574)
-
 
 ## Time-series classification/forecasting with neural networks + attention
 Attention mechanisms have recently gained popularity in training neural networks. They have shown their potential for machine translations, overcoming most of the limitations of standard recurrent neural networks, and allowing for more interpretable models. Recently, there have been several attempts to extend the attention mechanism to (multi-variate) time-series.
@@ -135,6 +136,24 @@ Attention mechanisms have recently gained popularity in training neural networks
 * [CDSA: Cross-Dimensional Self-Attention for Multivariate, Geo-tagged Time Series Imputation, NIPS 2019](https://arxiv.org/abs/1905.09904)
 * [Exploring Interpretable LSTM Neural Networks over Multi-Variable Data, ICML 2019](https://arxiv.org/abs/1905.12034)
 * [Enhancing the Locality and Breaking the Memory Bottleneck of Transformer on Time Series Forecasting, NIPS 2019](https://arxiv.org/abs/1907.00235)
+
+
+# Unsupervised Learning of Disentangled Representations
+
+Representation Learning consists of learning representations of the data that make model classification/prediction easier.  In particular, there has been a growing interest for learning interpretable representations that can be understood to humans, more specifically disentangled representations. A representation is said to be disentangled when "a change in one dimension corresponds to a change in one factor of variation, while being relatively invariant to changes in other factors". When we use generative models to learn disentangled representations, the goal is to learn a latent space such that latent dimensions (or a subset of them) encode independent factors of variations (that are supposed to be involved in the generation of the data). This should be done without any human supervision.
+
+* [Learning factorial codes by predictability minimization, Neural Computation 1992](https://ieeexplore.ieee.org/document/6795705)
+* [Disentangling factors of variation via generative entangling, 2012](https://arxiv.org/abs/1210.5474)
+* [Tensor analyzers, ICML 2013](http://proceedings.mlr.press/v28/tang13.html)
+* [Learning the irreducible representations of commutative lie groups, 2014](https://arxiv.org/abs/1402.4437)
+* [Transformation properties of learned visual representations, ICLR 2015](https://arxiv.org/abs/1412.7659)
+* [Infogan: Interpretable representation learning by information maximizing generative adversarial nets, NIPS 2016](https://arxiv.org/abs/1606.03657)
+* [β-VAE: Learning basic visual concepts with a constrained variational framework, ICLR 2017](https://openreview.net/forum?id=Sy2fzU9gl)
+* [Understanding disentangling in β-VAE, NIPS 2017](https://arxiv.org/abs/1804.03599)
+* [Disentangling by Factorising, ICML 2018](https://arxiv.org/abs/1802.05983)
+* [Isolating Sources of Disentanglement in VAEs, NIPS 2018](https://arxiv.org/pdf/1802.04942.pdf)
+* [On the emergence of invariance and disentangling in deep representations, JMLR 2018](https://arxiv.org/abs/1706.01350)
+* [Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations, ICML 2019](https://arxiv.org/abs/1811.12359)
 
 
 ## Others
