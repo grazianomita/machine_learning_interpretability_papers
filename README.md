@@ -138,7 +138,7 @@ Attention mechanisms have recently gained popularity in training neural networks
 * [Enhancing the Locality and Breaking the Memory Bottleneck of Transformer on Time Series Forecasting, NIPS 2019](https://arxiv.org/abs/1907.00235)
 
 
-# Unsupervised Learning of Disentangled Representations
+## Unsupervised Learning of Disentangled Representations
 
 Representation Learning consists of learning representations of the data that make model classification/prediction easier.  In particular, there has been a growing interest for learning interpretable representations that can be understood to humans, more specifically disentangled representations. A representation is said to be disentangled when "a change in one dimension corresponds to a change in one factor of variation, while being relatively invariant to changes in other factors". When we use generative models to learn disentangled representations, the goal is to learn a latent space such that latent dimensions (or a subset of them) encode independent factors of variations (that are supposed to be involved in the generation of the data). This should be done without any human supervision.
 
