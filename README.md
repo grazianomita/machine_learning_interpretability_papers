@@ -144,6 +144,7 @@ Representation Learning consists of learning representations of the data that ma
 
 * [Learning factorial codes by predictability minimization, Neural Computation 1992](https://ieeexplore.ieee.org/document/6795705)
 * [Disentangling factors of variation via generative entangling, 2012](https://arxiv.org/abs/1210.5474)
+* [Representation learning: A review and new perspectives, IEEE TSE 2013](https://arxiv.org/abs/1206.5538)
 * [Tensor analyzers, ICML 2013](http://proceedings.mlr.press/v28/tang13.html)
 * [Learning the irreducible representations of commutative lie groups, 2014](https://arxiv.org/abs/1402.4437)
 * [Transformation properties of learned visual representations, ICLR 2015](https://arxiv.org/abs/1412.7659)
