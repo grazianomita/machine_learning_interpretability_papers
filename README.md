@@ -150,10 +150,14 @@ Representation Learning consists of learning representations of the data that ma
 * [Transformation properties of learned visual representations, ICLR 2015](https://arxiv.org/abs/1412.7659)
 * [Infogan: Interpretable representation learning by information maximizing generative adversarial nets, NIPS 2016](https://arxiv.org/abs/1606.03657)
 * [β-VAE: Learning basic visual concepts with a constrained variational framework, ICLR 2017](https://openreview.net/forum?id=Sy2fzU9gl)
+* [Variational Inference of Disentangled Latent Concepts from Unlabeled Observations, ICLR 2017](https://arxiv.org/abs/1711.00848)
 * [Understanding disentangling in β-VAE, NIPS 2017](https://arxiv.org/abs/1804.03599)
+* [Multi-level variational autoencoder: Learning disentangled representations from grouped observations, AAAI 2018](https://arxiv.org/abs/1705.08841)
 * [Disentangling by Factorising, ICML 2018](https://arxiv.org/abs/1802.05983)
 * [Isolating Sources of Disentanglement in VAEs, NIPS 2018](https://arxiv.org/pdf/1802.04942.pdf)
+* [Learning deep disentangled embeddings with the f-statistic loss, NIPS 2018](https://arxiv.org/abs/1802.05312)
 * [On the emergence of invariance and disentangling in deep representations, JMLR 2018](https://arxiv.org/abs/1706.01350)
+* [Robustly Disentangled Causal Mechanisms: Validating Deep Representations for Interventional Robustness, ICML 2019](https://arxiv.org/abs/1811.00007)
 * [Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations, ICML 2019](https://arxiv.org/abs/1811.12359)
 
 
