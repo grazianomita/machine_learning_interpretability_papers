@@ -1,5 +1,5 @@
 # Model Interpretability
-This is a public collection of papers related to machine learning (ML) model interpretability. Someone might think that ML interpretability is a recent field: nothing more wrong! Throughout the history of machine learning, researchers have always proposed methods that are interpretable or can "explain things in human-understandable terms"! Unfortunately it is very hard to build an exhaustive list of works because many papers, especially the oldest ones, had not the word "interpretable/interpretability/explainability" in the title. Thus, the works reported here are just a small subset of what has been done in the field (and I personally read), and refers to sub-areas of model interpretability.
+This is a public collection of papers related to machine learning (ML) model interpretability. Someone might think that ML interpretability is a recent field: nothing more wrong! Throughout the history of machine learning, researchers have always proposed methods that are interpretable or can "explain things in human-understandable terms"! Unfortunately it is very hard to make an exhaustive list of works because many papers, especially the oldest ones, had not the word "interpretable/interpretability/explainability" in the title. Thus, the works reported here are just a small subset of what has been done in the field (and I personally read), and refers to sub-areas of model interpretability.
 
 
 ## Introduction to Model Interpretability
@@ -157,6 +157,7 @@ Representation Learning consists of learning representations of the data that ma
 * [Isolating Sources of Disentanglement in VAEs, NIPS 2018](https://arxiv.org/pdf/1802.04942.pdf)
 * [Learning deep disentangled embeddings with the f-statistic loss, NIPS 2018](https://arxiv.org/abs/1802.05312)
 * [On the emergence of invariance and disentangling in deep representations, JMLR 2018](https://arxiv.org/abs/1706.01350)
+* [InfoVAE: Balancing Learning and Inference in Variational Autoencoders, AAAI 2019](https://arxiv.org/abs/1706.02262)
 * [Robustly Disentangled Causal Mechanisms: Validating Deep Representations for Interventional Robustness, ICML 2019](https://arxiv.org/abs/1811.00007)
 * [Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations, ICML 2019](https://arxiv.org/abs/1811.12359)
 
