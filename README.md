@@ -157,7 +157,7 @@ Representation Learning consists of learning representations of the data that ma
 * [Disentangled Sequential Autoencoder, ICML 2018](https://arxiv.org/abs/1803.02991)
 * [Isolating Sources of Disentanglement in VAEs, NIPS 2018](https://arxiv.org/pdf/1802.04942.pdf)
 * [Learning deep disentangled embeddings with the f-statistic loss, NIPS 2018](https://arxiv.org/abs/1802.05312)
-* [On the emergence of invariance and disentangling in deep representations, JMLR 2018](https://arxiv.org/abs/1706.01350
+* [On the emergence of invariance and disentangling in deep representations, JMLR 2018](https://arxiv.org/abs/1706.01350)
 * [InfoVAE: Balancing Learning and Inference in Variational Autoencoders, AAAI 2019](https://arxiv.org/abs/1706.02262)
 * [Structured Disentangled Representations, AISTATS 2019](https://arxiv.org/abs/1804.02086)
 * [Robustly Disentangled Causal Mechanisms: Validating Deep Representations for Interventional Robustness, ICML 2019](https://arxiv.org/abs/1811.00007)
