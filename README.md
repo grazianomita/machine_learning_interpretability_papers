@@ -149,6 +149,7 @@ Representation Learning consists of learning representations of the data that ma
 * [Learning the irreducible representations of commutative lie groups, 2014](https://arxiv.org/abs/1402.4437)
 * [Transformation properties of learned visual representations, ICLR 2015](https://arxiv.org/abs/1412.7659)
 * [Adversarial Autoencoders, ICLR 2016](https://arxiv.org/abs/1511.05644)
+* [Information Dropout: Learning Optimal Representations Through Noisy Computation, IEEE TPAMI 2016](https://arxiv.org/abs/1611.01353)
 * [Infogan: Interpretable representation learning by information maximizing generative adversarial nets, NIPS 2016](https://arxiv.org/abs/1606.03657)
 * [β-VAE: Learning basic visual concepts with a constrained variational framework, ICLR 2017](https://openreview.net/forum?id=Sy2fzU9gl)
 * [Understanding disentangling in β-VAE, NIPS 2017](https://arxiv.org/abs/1804.03599)
