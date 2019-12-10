@@ -153,17 +153,30 @@ Representation Learning consists of learning representations of the data that ma
 * [Infogan: Interpretable representation learning by information maximizing generative adversarial nets, NIPS 2016](https://arxiv.org/abs/1606.03657)
 * [β-VAE: Learning basic visual concepts with a constrained variational framework, ICLR 2017](https://openreview.net/forum?id=Sy2fzU9gl)
 * [Understanding disentangling in β-VAE, NIPS 2017](https://arxiv.org/abs/1804.03599)
-* [Multi-level variational autoencoder: Learning disentangled representations from grouped observations, AAAI 2018](https://arxiv.org/abs/1705.08841)
 * [Variational Inference of Disentangled Latent Concepts from Unlabeled Observations, ICLR 2018](https://arxiv.org/abs/1711.00848)
 * [Disentangling by Factorising, ICML 2018](https://arxiv.org/abs/1802.05983)
 * [Disentangled Sequential Autoencoder, ICML 2018](https://arxiv.org/abs/1803.02991)
 * [On the emergence of invariance and disentangling in deep representations, JMLR 2018](https://arxiv.org/abs/1706.01350)
+* [Information Constraints on Auto-Encoding Variational Bayes, NIPS 2018](https://arxiv.org/abs/1805.08672)
 * [Isolating Sources of Disentanglement in VAEs, NIPS 2018](https://arxiv.org/pdf/1802.04942.pdf)
 * [Learning deep disentangled embeddings with the f-statistic loss, NIPS 2018](https://arxiv.org/abs/1802.05312)
 * [InfoVAE: Balancing Learning and Inference in Variational Autoencoders, AAAI 2019](https://arxiv.org/abs/1706.02262)
 * [Structured Disentangled Representations, AISTATS 2019](https://arxiv.org/abs/1804.02086)
 * [Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations, ICML 2019](https://arxiv.org/abs/1811.12359)
 * [Robustly Disentangled Causal Mechanisms: Validating Deep Representations for Interventional Robustness, ICML 2019](https://arxiv.org/abs/1811.00007)
+
+
+## Weakly-supervised Learning of Disentangled Representations
+
+A recent result from Locatello et al. 2019, showed that unsupervised disentanglement learning is fundamentally impossible. That is why recent research is focusing on weakly-supervised methods where we do not need to explicitly provide the generative factors at training time, but we still can provide some kind of supervision. An example of weak supervision can for example be the class label. Alternatively, we could also group input records together if we think they share some generative factors. Here, I report the most recent works on the field.
+
+* [Disentangling Factors of Variation with Cycle-Consistent Variational Auto-Encoders, ECCV 2018](https://arxiv.org/abs/1804.10469)
+* [Multi-level variational autoencoder: Learning disentangled representations from grouped observations, AAAI 2018](https://arxiv.org/abs/1705.08841)
+* [Dual Swap Disentangling, NIPS 2018](https://arxiv.org/abs/1805.10583)
+* [Gaussian Process Prior Variational Autoencoders, NIPS 2018](https://arxiv.org/abs/1810.11738)
+* [Weakly Supervised Disentanglement with Guarantees, under review to ICLR 2020](https://arxiv.org/abs/1910.09772)
+* [Demystifying Inter-Class Disentanglement, under review to ICLR 2020](https://arxiv.org/abs/1906.11796)
+* [Weakly Supervised Disentanglement by Pairwise Similarities, under review to ? 2020](https://arxiv.org/abs/1906.01044)
 
 
 ## Others
