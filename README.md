@@ -172,6 +172,7 @@ Representation Learning consists of learning representations of the data that ma
 
 A recent result from Locatello et al. 2019, showed that unsupervised disentanglement learning is fundamentally impossible. That is why recent research is focusing on weakly-supervised methods where we do not need to explicitly provide the generative factors at training time, but we still can provide some kind of supervision. An example of weak supervision can for example be the class label. Alternatively, we could also group input records together if we think they share some generative factors. Here, I report the most recent works on the field.
 
+* [Semi-Supervised Learning with Deep Generative Models, NIPS 2014](https://arxiv.org/abs/1406.5298)
 * [Learning Disentangled Representations with Semi-Supervised Deep Generative Models, NIPS 2017](https://arxiv.org/abs/1706.00400)
 * [Disentangling Factors of Variation with Cycle-Consistent Variational Auto-Encoders, ECCV 2018](https://arxiv.org/abs/1804.10469)
 * [Multi-level variational autoencoder: Learning disentangled representations from grouped observations, AAAI 2018](https://arxiv.org/abs/1705.08841)
