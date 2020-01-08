@@ -183,6 +183,7 @@ A recent result from Locatello et al. 2019, showed that unsupervised disentangle
 * [Semi-Supervised Learning by Disentangling and Self-Ensembling over Stochastic Latent Space, MICCAI 2019](https://arxiv.org/abs/1907.09607)
 * [Weakly Supervised Disentanglement with Guarantees, ICLR 2020](https://arxiv.org/abs/1910.09772)
 * [Demystifying Inter-Class Disentanglement, ICLR 2020](https://arxiv.org/abs/1906.11796)
+* [Robust Ordinal VAE: Employing Noisy Pairwise Comparisons for Disentanglement, under review to AISTATS 2020](https://arxiv.org/abs/1910.05898)
 * [Weakly Supervised Disentanglement by Pairwise Similarities, under review to ? 2020](https://arxiv.org/abs/1906.01044)
 
 
