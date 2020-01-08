@@ -173,13 +173,16 @@ Representation Learning consists of learning representations of the data that ma
 A recent result from Locatello et al. 2019, showed that unsupervised disentanglement learning is fundamentally impossible. That is why recent research is focusing on weakly-supervised methods where we do not need to explicitly provide the generative factors at training time, but we still can provide some kind of supervision. An example of weak supervision can for example be the class label. Alternatively, we could also group input records together if we think they share some generative factors. Here, I report the most recent works on the field.
 
 * [Semi-Supervised Learning with Deep Generative Models, NIPS 2014](https://arxiv.org/abs/1406.5298)
+* [Disentangling factors of variation in deep representations using adversarial training, NIPS 2016](https://arxiv.org/abs/1611.03383)
 * [Learning Disentangled Representations with Semi-Supervised Deep Generative Models, NIPS 2017](https://arxiv.org/abs/1706.00400)
 * [Disentangling Factors of Variation with Cycle-Consistent Variational Auto-Encoders, ECCV 2018](https://arxiv.org/abs/1804.10469)
 * [Multi-level variational autoencoder: Learning disentangled representations from grouped observations, AAAI 2018](https://arxiv.org/abs/1705.08841)
+* [Multi-View Data Generation Without View Supervision, ICLR 2018](https://arxiv.org/abs/1711.00305)
 * [Dual Swap Disentangling, NIPS 2018](https://arxiv.org/abs/1805.10583)
 * [Gaussian Process Prior Variational Autoencoders, NIPS 2018](https://arxiv.org/abs/1810.11738)
-* [Weakly Supervised Disentanglement with Guarantees, under review to ICLR 2020](https://arxiv.org/abs/1910.09772)
-* [Demystifying Inter-Class Disentanglement, under review to ICLR 2020](https://arxiv.org/abs/1906.11796)
+* [Semi-Supervised Learning by Disentangling and Self-Ensembling over Stochastic Latent Space, MICCAI 2019](https://arxiv.org/abs/1907.09607)
+* [Weakly Supervised Disentanglement with Guarantees, ICLR 2020](https://arxiv.org/abs/1910.09772)
+* [Demystifying Inter-Class Disentanglement, ICLR 2020](https://arxiv.org/abs/1906.11796)
 * [Weakly Supervised Disentanglement by Pairwise Similarities, under review to ? 2020](https://arxiv.org/abs/1906.01044)
 
 
