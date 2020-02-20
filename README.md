@@ -187,7 +187,7 @@ A recent result from Locatello et al. 2019, showed that unsupervised disentangle
 * [Disentangling Factors of Variation Using Few Labels, ICLR 2020](https://arxiv.org/pdf/1905.01258.pdf)
 * [Robust Ordinal VAE: Employing Noisy Pairwise Comparisons for Disentanglement, under review by AISTATS 2020](https://arxiv.org/abs/1910.05898)
 * [Weakly Supervised Disentanglement by Pairwise Similarities, under review by ? 2020](https://arxiv.org/abs/1906.01044)
-* [Weakly Supervised Disentanglement Without Compromises, under review by ICML 2020]
+* [Weakly Supervised Disentanglement Without Compromises, under review by ICML 2020](https://arxiv.org/pdf/2002.02886.pdf)
 
 
 ## Others
