@@ -12,10 +12,10 @@ These are some of the more recent references to read if you are approaching the 
 * [Towards A Rigorous Science of Interpretable Machine Learning, 2017](https://arxiv.org/abs/1702.08608)
 * [Transparency: Motivations and Challenges, ICML 2017](https://arxiv.org/abs/1708.01870)
 * [Explanation in Artificial Intelligence: Insights from the Social Sciences, Artificial Intelligence 2017](https://arxiv.org/abs/1706.07269)
-* [The intriguing Properties of Model Explanation, NIPS 2017](https://arxiv.org/abs/1801.09808)
-* [The Doctor Just Won’t Accept That!, NIPS 2017](https://arxiv.org/abs/1711.08037)
-* ["I know it when I see it". Visualization and Intuitive Interpretability, NIPS 2017](https://arxiv.org/abs/1711.08042)
-* [The Promise and Peril of Human Evaluation for Model Interpretability, NIPS 2017](https://arxiv.org/abs/1711.07414)
+* [The intriguing Properties of Model Explanation, NeurIPS 2017](https://arxiv.org/abs/1801.09808)
+* [The Doctor Just Won’t Accept That!, NeurIPS 2017](https://arxiv.org/abs/1711.08037)
+* ["I know it when I see it". Visualization and Intuitive Interpretability, NeurIPS 2017](https://arxiv.org/abs/1711.08042)
+* [The Promise and Peril of Human Evaluation for Model Interpretability, NeurIPS 2017](https://arxiv.org/abs/1711.07414)
 * [Interpretability of deep learning models: a survey of results, DAIS 2017](https://ieeexplore.ieee.org/document/8397411)
 * [A Survey Of Methods For Explaining Black Box Models, ACM Computing Surveys 2018](https://arxiv.org/abs/1802.01933)
 * [Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and use Interpretable Models Instead, Nature Machine Learning 2019](https://arxiv.org/abs/1811.10154)
@@ -51,7 +51,7 @@ Here, we report just a subset of the work done on rule-based methods, trying to 
 * [Disjunctions of Conjunctions, Cognitive Simplicity, and Consideration Sets, Journal of Marketing Research 2010](https://pdfs.semanticscholar.org/bf65/dc3164be43919088695d7f43ee2e51d4b614.pdf)
 * [Finding a Short and Accurate Decision Rule in Disjunctive Normal Form by Exhaustive Search, Machine Learning 2010](https://link.springer.com/article/10.1007/s10994-010-5168-9)
 * [BRACID: a comprehensive approach to learning rules from imbalanced data, Journal of Intelligent Information Systems 2012](https://link.springer.com/article/10.1007/s10844-011-0193-0)
-* [An Integer Optimization Approach to Associative Classification, NIPS 2012](https://pdfs.semanticscholar.org/ec2c/b3a9abdcad58ea4acb73b1411f7eb98d8472.pdf)
+* [An Integer Optimization Approach to Associative Classification, NeurIPS 2012](https://pdfs.semanticscholar.org/ec2c/b3a9abdcad58ea4acb73b1411f7eb98d8472.pdf)
 * [Exact Rule Learning via Boolean Compressed Sensing, ICML 2013](http://ssg.mit.edu/~krv/pubs/MalioutovV_icml2013.pdf)
 * [Foundations of Rule Learning, 2014](https://www.springer.com/gp/book/9783540751960)
 * [Box Drawings for Learning with Imbalanced Data, KDD 2014](https://arxiv.org/abs/1403.3378)
@@ -65,8 +65,8 @@ Here, we report just a subset of the work done on rule-based methods, trying to 
 * [Learning Credible Models, KDD 2018](https://arxiv.org/abs/1711.03190)
 * [Learning Certifiably Optimal Rule Lists for Categorical Data, JMLR 2018](https://arxiv.org/abs/1704.01701)
 * [An Optimization Approach to Learning Falling Rule Lists, AISTATS 2018](http://proceedings.mlr.press/v84/chen18a/chen18a.pdf)
-* [Boolean Decision Rules via Column Generation, NIPS 2018](https://arxiv.org/abs/1805.09901)
-* [An Interpretable Model with Globally Consistent Explanations for Credit Risk, NIPS 2018](https://arxiv.org/abs/1811.12615)
+* [Boolean Decision Rules via Column Generation, NeurIPS 2018](https://arxiv.org/abs/1805.09901)
+* [An Interpretable Model with Globally Consistent Explanations for Credit Risk, NeurIPS 2018](https://arxiv.org/abs/1811.12615)
 
 
 ## Incremental Rule Learning
@@ -90,10 +90,10 @@ Incremental supervised methods assume that labels become available together with
 ## Case-Based Interpretable Models
 Case-based models like KNN (k-nearest neighbors) classify new records based on previously seen records. More specifically, every new input is compared with previously seen records (usually its neighbors) and classified according to a measure of distance. For case-based models, interpretability translates into similarity: a given input is assigned to class C if it is similar to other samples that were previously classified in the same way. I am not going to report here all the well-known work on case-based methods. Instead, I will focus on recent papers that I think are innovative and interesting to read.
 
-* [The Bayesian Case Model: A Generative Approach for Case-Based Reasoning and Prototype Classification, NIPS 2014](https://users.cs.duke.edu/~cynthia/docs/KimRuSh14.pdf)
+* [The Bayesian Case Model: A Generative Approach for Case-Based Reasoning and Prototype Classification, NeurIPS 2014](https://users.cs.duke.edu/~cynthia/docs/KimRuSh14.pdf)
 * [Bayesian Patchworks: An Approach to Case-Based Reasoning, Machine Learning 2018](https://arxiv.org/abs/1809.03541)
 * [Deep Learning for Case-based Reasoning through Prototypes: A Neural Network that Explains its Predictions, AAAI 2018](https://arxiv.org/abs/1710.04806)
-* [This Looks Like That: Deep Learning for Interpretable Image Recognition, NIPS 2019](https://arxiv.org/abs/1806.10574)
+* [This Looks Like That: Deep Learning for Interpretable Image Recognition, NeurIPS 2019](https://arxiv.org/abs/1806.10574)
 
 
 ## Post-hoc interpretability of Artificial Neural Networks
@@ -104,8 +104,8 @@ Artificial neural networks are the black-box model "par excellence". Thus, it is
 * [Using Sampling and Queries to Extract Rules from Trained Neural Networks, ICML 1994](https://www.semanticscholar.org/paper/Using-Sampling-and-Queries-to-Extract-Rules-from-Craven-Shavlik/ba176454d1ade52e6eec74e3f9eed5f61179761a)
 * [Rule-Neg: Extracting Rules from Trained Ann, 1994](https://www.amazon.co.uk/Rule-Neg-Extracting-Rules-Trained-Ann/dp/B001A2ISO2)
 * [Survey and critique of techniques for extracting rules from trained artificial neural networks, KBS 1995](https://www.sciencedirect.com/science/article/pii/0950705196819204)
-* [Extracting Rules from Artificial Neural Networks with Distributed Representations, NIPS 1995](https://papers.nips.cc/paper/924-extracting-rules-from-artificial-neural-networks-with-distributed-representations.pdf)
-* [Extracting Tree-Structured Representations of Trained Networks, NIPS 1996](https://papers.nips.cc/paper/1152-extracting-tree-structured-representations-of-trained-networks.pdf)
+* [Extracting Rules from Artificial Neural Networks with Distributed Representations, NeurIPS 1995](https://papers.nips.cc/paper/924-extracting-rules-from-artificial-neural-networks-with-distributed-representations.pdf)
+* [Extracting Tree-Structured Representations of Trained Networks, NeurIPS 1996](https://papers.nips.cc/paper/1152-extracting-tree-structured-representations-of-trained-networks.pdf)
 * [The truth will come to light: directions and challenges in extracting the knowledge embedded within trained artificial neural networks, IEEE TNN 1998](https://ieeexplore.ieee.org/document/728352)
 * [A statistics based approach for extracting priority rules from trained neural networks, IEEE IJCNN 2000](https://ieeexplore.ieee.org/document/861337)
 * [The truth is in there : directions and challenges in extracting rules from trained ar tificial neural networks, IEEE TNN 2000](https://www.researchgate.net/publication/2614662_The_Truth_is_in_There_Directions_and_Challenges_in_Extracting_Rules_From_Trained_Artificial_Neural_Networks)
@@ -119,7 +119,7 @@ Artificial neural networks are the black-box model "par excellence". Thus, it is
 * [A modified fuzzy min-max neural network with rule extraction, Applied Soft Computing 2008](https://www.sciencedirect.com/science/article/pii/S1568494607000865)
 * [Reverse engineering the neural networks for rule extraction in classification problems, Neural Processing Letters 2012](https://link.springer.com/article/10.1007/s11063-011-9207-8)
 * [Active Learning-Based Pedagogical Rule Extraction, IEEE TNN 2015](https://ieeexplore.ieee.org/document/7018925)
-* [TreeView: Peeking into Deep Neural Networks Via Feature-Space Partitioning, NIPS 2016](https://arxiv.org/abs/1611.07429)
+* [TreeView: Peeking into Deep Neural Networks Via Feature-Space Partitioning, NeurIPS 2016](https://arxiv.org/abs/1611.07429)
 * [Interpretation of Neural Networks is Fragile, AAAI 2019](arxiv.org/pdf/1710.10547.pdf)
 
 
@@ -128,14 +128,14 @@ Attention mechanisms have recently gained popularity in training neural networks
 
 * [Neural Machine Translation by Jointly Learning to Align and Translate, ICLR 2015](https://arxiv.org/abs/1409.0473)
 * [Effective Approaches to Attention-based Neural Machine Translation, EMNLP 2015](https://arxiv.org/abs/1508.04025)
-* [RETAIN: An Interpretable Predictive Model for Healthcare using Reverse Time Attention Mechanism, NIPS 2016](https://arxiv.org/abs/1608.05745)
+* [RETAIN: An Interpretable Predictive Model for Healthcare using Reverse Time Attention Mechanism, NeurIPS 2016](https://arxiv.org/abs/1608.05745)
 * [A Dual-Stage Attention-Based Recurrent Neural Network for Time Series Prediction, IJCAI 2017](https://arxiv.org/abs/1704.02971)
 * [Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks, SIGIR 2018](https://arxiv.org/abs/1703.07015)
 * [Attend and Diagnose: Clinical Time Series Analysis using Attention Models, AAAI 2018](https://arxiv.org/abs/1711.03905)
 * [Temporal Pattern Attention for Multivariate Time Series Forecasting, ECML 2019](https://arxiv.org/abs/1809.04206)
-* [CDSA: Cross-Dimensional Self-Attention for Multivariate, Geo-tagged Time Series Imputation, NIPS 2019](https://arxiv.org/abs/1905.09904)
+* [CDSA: Cross-Dimensional Self-Attention for Multivariate, Geo-tagged Time Series Imputation, NeurIPS 2019](https://arxiv.org/abs/1905.09904)
 * [Exploring Interpretable LSTM Neural Networks over Multi-Variable Data, ICML 2019](https://arxiv.org/abs/1905.12034)
-* [Enhancing the Locality and Breaking the Memory Bottleneck of Transformer on Time Series Forecasting, NIPS 2019](https://arxiv.org/abs/1907.00235)
+* [Enhancing the Locality and Breaking the Memory Bottleneck of Transformer on Time Series Forecasting, NeurIPS 2019](https://arxiv.org/abs/1907.00235)
 
 
 ## Unsupervised Learning of Disentangled Representations
@@ -150,17 +150,17 @@ Representation Learning consists of learning representations of the data that ma
 * [Transformation properties of learned visual representations, ICLR 2015](https://arxiv.org/abs/1412.7659)
 * [Adversarial Autoencoders, ICLR 2016](https://arxiv.org/abs/1511.05644)
 * [Information Dropout: Learning Optimal Representations Through Noisy Computation, IEEE TPAMI 2016](https://arxiv.org/abs/1611.01353)
-* [Infogan: Interpretable representation learning by information maximizing generative adversarial nets, NIPS 2016](https://arxiv.org/abs/1606.03657)
+* [Infogan: Interpretable representation learning by information maximizing generative adversarial nets, NeurIPS 2016](https://arxiv.org/abs/1606.03657)
 * [β-VAE: Learning basic visual concepts with a constrained variational framework, ICLR 2017](https://openreview.net/forum?id=Sy2fzU9gl)
-* [Understanding disentangling in β-VAE, NIPS 2017](https://arxiv.org/abs/1804.03599)
+* [Understanding disentangling in β-VAE, NeurIPS 2017](https://arxiv.org/abs/1804.03599)
 * [Variational Inference of Disentangled Latent Concepts from Unlabeled Observations, ICLR 2018](https://arxiv.org/abs/1711.00848)
 * [Disentangling by Factorising, ICML 2018](https://arxiv.org/abs/1802.05983)
 * [Disentangled Sequential Autoencoder, ICML 2018](https://arxiv.org/abs/1803.02991)
 * [On the emergence of invariance and disentangling in deep representations, JMLR 2018](https://arxiv.org/abs/1706.01350)
-* [Learning Disentangled Joint Continuous and Discrete Representations, NIPS 2018](https://arxiv.org/abs/1804.00104)
-* [Information Constraints on Auto-Encoding Variational Bayes, NIPS 2018](https://arxiv.org/abs/1805.08672)
-* [Isolating Sources of Disentanglement in VAEs, NIPS 2018](https://arxiv.org/pdf/1802.04942.pdf)
-* [Learning deep disentangled embeddings with the f-statistic loss, NIPS 2018](https://arxiv.org/abs/1802.05312)
+* [Learning Disentangled Joint Continuous and Discrete Representations, NeurIPS 2018](https://arxiv.org/abs/1804.00104)
+* [Information Constraints on Auto-Encoding Variational Bayes, NeurIPS 2018](https://arxiv.org/abs/1805.08672)
+* [Isolating Sources of Disentanglement in VAEs, NeurIPS 2018](https://arxiv.org/pdf/1802.04942.pdf)
+* [Learning deep disentangled embeddings with the f-statistic loss, NeurIPS 2018](https://arxiv.org/abs/1802.05312)
 * [InfoVAE: Balancing Learning and Inference in Variational Autoencoders, AAAI 2019](https://arxiv.org/abs/1706.02262)
 * [Auto-Encoding Total Correlation Explanation, AISTATS 2019](https://arxiv.org/abs/1802.05822)
 * [Structured Disentangled Representations, AISTATS 2019](https://arxiv.org/abs/1804.02086)
@@ -172,19 +172,22 @@ Representation Learning consists of learning representations of the data that ma
 
 A recent result from Locatello et al. 2019, showed that unsupervised disentanglement learning is fundamentally impossible. That is why recent research is focusing on weakly-supervised methods where we do not need to explicitly provide the generative factors at training time, but we still can provide some kind of supervision. An example of weak supervision can for example be the class label. Alternatively, we could also group input records together if we think they share some generative factors. Here, I report the most recent works on the field.
 
-* [Semi-Supervised Learning with Deep Generative Models, NIPS 2014](https://arxiv.org/abs/1406.5298)
-* [Disentangling factors of variation in deep representations using adversarial training, NIPS 2016](https://arxiv.org/abs/1611.03383)
-* [Learning Disentangled Representations with Semi-Supervised Deep Generative Models, NIPS 2017](https://arxiv.org/abs/1706.00400)
+* [Semi-Supervised Learning with Deep Generative Models, NeurIPS 2014](https://arxiv.org/abs/1406.5298)
+* [Disentangling factors of variation in deep representations using adversarial training, NeurIPS 2016](https://arxiv.org/abs/1611.03383)
+* [Learning Disentangled Representations with Semi-Supervised Deep Generative Models, NeurIPS 2017](https://arxiv.org/abs/1706.00400)
 * [Disentangling Factors of Variation with Cycle-Consistent Variational Auto-Encoders, ECCV 2018](https://arxiv.org/abs/1804.10469)
 * [Multi-level variational autoencoder: Learning disentangled representations from grouped observations, AAAI 2018](https://arxiv.org/abs/1705.08841)
 * [Multi-View Data Generation Without View Supervision, ICLR 2018](https://arxiv.org/abs/1711.00305)
-* [Dual Swap Disentangling, NIPS 2018](https://arxiv.org/abs/1805.10583)
-* [Gaussian Process Prior Variational Autoencoders, NIPS 2018](https://arxiv.org/abs/1810.11738)
+* [Dual Swap Disentangling, NeurIPS 2018](https://arxiv.org/abs/1805.10583)
+* [Gaussian Process Prior Variational Autoencoders, NeurIPS 2018](https://arxiv.org/abs/1810.11738)
+* [Group-based Learning of Disentangled Representations with Generalizability for Novel Contents](https://www.ijcai.org/Proceedings/2019/0348.pdf)
 * [Semi-Supervised Learning by Disentangling and Self-Ensembling over Stochastic Latent Space, MICCAI 2019](https://arxiv.org/abs/1907.09607)
 * [Weakly Supervised Disentanglement with Guarantees, ICLR 2020](https://arxiv.org/abs/1910.09772)
 * [Demystifying Inter-Class Disentanglement, ICLR 2020](https://arxiv.org/abs/1906.11796)
-* [Robust Ordinal VAE: Employing Noisy Pairwise Comparisons for Disentanglement, under review to AISTATS 2020](https://arxiv.org/abs/1910.05898)
-* [Weakly Supervised Disentanglement by Pairwise Similarities, under review to ? 2020](https://arxiv.org/abs/1906.01044)
+* [Disentangling Factors of Variation Using Few Labels, ICLR 2020](https://arxiv.org/pdf/1905.01258.pdf)
+* [Robust Ordinal VAE: Employing Noisy Pairwise Comparisons for Disentanglement, under review by AISTATS 2020](https://arxiv.org/abs/1910.05898)
+* [Weakly Supervised Disentanglement by Pairwise Similarities, under review by ? 2020](https://arxiv.org/abs/1906.01044)
+* [Weakly Supervised Disentanglement Without Compromises, under review by ICML 2020]
 
 
 ## Others
