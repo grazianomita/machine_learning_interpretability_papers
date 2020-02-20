@@ -180,7 +180,7 @@ A recent result from Locatello et al. 2019, showed that unsupervised disentangle
 * [Multi-View Data Generation Without View Supervision, ICLR 2018](https://arxiv.org/abs/1711.00305)
 * [Dual Swap Disentangling, NeurIPS 2018](https://arxiv.org/abs/1805.10583)
 * [Gaussian Process Prior Variational Autoencoders, NeurIPS 2018](https://arxiv.org/abs/1810.11738)
-* [Group-based Learning of Disentangled Representations with Generalizability for Novel Contents](https://www.ijcai.org/Proceedings/2019/0348.pdf)
+* [Group-based Learning of Disentangled Representations with Generalizability for Novel Contents, IJCAI 2019](https://www.ijcai.org/Proceedings/2019/0348.pdf)
 * [Semi-Supervised Learning by Disentangling and Self-Ensembling over Stochastic Latent Space, MICCAI 2019](https://arxiv.org/abs/1907.09607)
 * [Weakly Supervised Disentanglement with Guarantees, ICLR 2020](https://arxiv.org/abs/1910.09772)
 * [Demystifying Inter-Class Disentanglement, ICLR 2020](https://arxiv.org/abs/1906.11796)
