@@ -1,5 +1,7 @@
 # Model Interpretability
-This is a public collection of papers related to machine learning (ML) model interpretability. Someone might think that ML interpretability is a recent field: nothing more wrong! Throughout the history of machine learning, researchers have always proposed methods that are interpretable or can "explain things in human-understandable terms"! Unfortunately it is very hard to make an exhaustive list of works because many papers, especially the oldest ones, had not the word "interpretable/interpretability/explainability" in the title. Thus, the works reported here are just a small subset of what has been done in the field (and I personally read), and refers to sub-areas of model interpretability.
+This is a public collection of papers related to machine learning (ML) model interpretability. Someone might think that ML interpretability is a recent field, however, throughout the history of machine learning, researchers have always proposed methods that are interpretable or can "explain things in human-understandable terms"! Unfortunately,  making an exhaustive list of works is complicated because many papers, especially the oldest ones, had not the word "interpretable/interpretability/explainability" in the title. The works reported here represent a small subset of what has been done in the field (and I personally read).
+
+**You can find additional references in my PhD Thesis. You could give it a read if you are interested in the topic: [TOWARD INTERPRETABLE MACHINE LEARNING, WITH APPLICATIONS TO LARGE-SCALE INDUSTRIAL SYSTEMS DATA](https://www.eurecom.fr/en/publication/6524)**
 
 
 ## Introduction to Model Interpretability
